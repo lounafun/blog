@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-
+/* Reset = réinitialisation */
 *{
 	border: 0;
 	margin: 0;
@@ -8,9 +8,9 @@
 	
 body {
 	font-family: Arial, Sans serif;
-	font-size: 12px;
+	font-size: 14px;
 }
-
+/* titre du blog */
 h1{
 	font-size: 30px;
 	color: #375D81;
@@ -41,7 +41,7 @@ hr {
 	margin-bottom: 0px;
 }
 	
-input, textarea, select {
+input, textarea, select , button {
 	padding: 2px;
 }
 input.arrondi {
@@ -63,17 +63,20 @@ button:hover {
 	background: #82D2D3;
 	cursor: pointer;
 }
-
+/*formulaires*/
 form.login {
-	width: 450px;
+	width: 500px;
 	margin: auto;
 	background: #375D81;
 	color: white;
 	border-radius: 10px;
 }
 form.add_article {
-	width: 600px;
-	border: solid 1px red;
+	width: 500px;
+	margin: auto;
+	background: #375D81;
+	color: white;
+	border-radius: 10px;
 }
 
 /*form.login fieldset {
@@ -125,27 +128,24 @@ header nav ul li {
 	height: 24px;
 	line-height: 24px;
 	border-right: solid 2px #4CBBBC;
-	background: black;
+	background: #024761; */marron*/
 }
+table.articles 1, 2, 3  {
+	background: #024761;
 
-table.articles td ,  table.articles th {
+}
+table.articles td  {
 	border: solid 1px gray;
-}
+	padding: 5px;
 
-/*.home {
-	color: #333;
-	font-size: 24px;
-	transition: all 1s ease 0.1s;
 }
-.home:hover {
-	color: red!important;
-	font-size: 18px;
-	transition: all 1s ease 0.1s;
-	background: #333;
-	border-radius: 10px
+table.articles th {
+	border: solid 1px gray;
+	padding: 10px;
+	background: #4CBBBC; */bleu vert*/
+	
 }
-va avec cette ligne dans header<li class="home"><a href="index.php">Accueil</a></li>*/
-
+ 
 header nav ul li a {
 	display: inline-block;
 	text-decoration: none;
@@ -157,7 +157,6 @@ header nav ul li a {
 	color: white;
 	}
 header nav ul li a:hover {
-	
 	text-decoration: none;
 	background: #82D2D3;
 	color: white;
